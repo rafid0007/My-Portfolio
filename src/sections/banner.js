@@ -9,6 +9,7 @@ import { SiDjango } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
+import Image from "next/image";
 import BannerBG from "assets/bg-8.jpg";
 
 const data = [
@@ -58,6 +59,7 @@ export default function Banner() {
   };
   return (
     <section sx={styles.banner} id="home">
+      <Image src={BannerBG} layout='fill' objectFit='cover' alt='backgroundImage'/>
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h3" variant="heroPre">
@@ -67,7 +69,7 @@ export default function Banner() {
             MOSTAFA RAFID
           </Heading>
           <Text as="p" variant="heroSecondary">
-            I'm a JAVASCRIPT & PYTHON Developer.
+            I&apos;m a JAVASCRIPT & PYTHON Developer.
           </Text>
           <Flex sx={{ justifyContent: "space-between" }}>
             {contactData.map(item => (
@@ -95,17 +97,15 @@ export default function Banner() {
 const styles = {
   banner: {
     overflow: ["hidden", "initial", null, "hidden"],
-    backgroundImage: `url(${BannerBG})`,
-    backgroundRepeat: `no-repeat`,
-    backgroundPosition: "top left",
-    backgroundSize: "cover",
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ["150px", null, null, null, null, null, "140px", "130px"],
     pb: ["100px", null, null, "110px", null, 10, "150px"],
-    backgroundColor: "primary",
     container: {
       display: "flex",
       justifyContent: "center",
+      '& > *': {
+        zIndex: 100
+      }
     },
     contentBox: {
       width: ["100%", null, "85%", "55%", "50%", "55%"],
