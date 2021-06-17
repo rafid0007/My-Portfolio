@@ -97,6 +97,7 @@ export default function Banner() {
 const styles = {
   banner: {
     overflow: ["hidden", "initial", null, "hidden"],
+    position: 'relative',
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ["150px", null, null, null, null, null, "140px", "130px"],
     pb: ["100px", null, null, "110px", null, 10, "150px"],
