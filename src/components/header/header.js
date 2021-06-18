@@ -29,7 +29,7 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-          <L href='https://drive.google.com/uc?export=download&id=1cCcdkO_GVD57Tai8sUCqRpCMnUuoOemt' target="_blank">
+          <L href='https://drive.google.com/uc?export=download&id=1PtckRA05k9PtzzOF28w2PQinfMYKYlGJ' target="_blank">
             <Button
               className="donate__btn"
               variant="secondary"
