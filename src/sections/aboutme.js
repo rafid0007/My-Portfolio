@@ -10,7 +10,7 @@ const data = {
   description:
     'I am a web application developer and enthusiast, specialize in React with Next.js. I work for fun and like to work with the latest technologies and coding conventions. I have a background of Computer Science and Mathematics. Learning and experimenting with technologies is my passion. Learn, experiment, implement and grow is my motto.',
   btnName: 'My Resume',
-  btnURL: 'https://drive.google.com/uc?export=download&id=1cCcdkO_GVD57Tai8sUCqRpCMnUuoOemt',
+  btnURL: 'https://drive.google.com/uc?export=download&id=1PtckRA05k9PtzzOF28w2PQinfMYKYlGJ',
 };
 
 export default function AboutMe() {
