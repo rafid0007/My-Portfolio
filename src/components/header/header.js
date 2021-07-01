@@ -6,6 +6,7 @@ import Logo from 'components/logo';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
+import { resumeLink } from 'const/const';
 
 export default function Header({ className }) {
   return (
@@ -29,7 +30,7 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-          <L href='https://drive.google.com/uc?export=download&id=1PtckRA05k9PtzzOF28w2PQinfMYKYlGJ' target="_blank">
+          <L href={resumeLink} target="_blank">
             <Button
               className="donate__btn"
               variant="secondary"
