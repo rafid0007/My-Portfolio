@@ -13,43 +13,7 @@ import f_1 from '../assets/projects/forkify-1.png';
 import f_2 from '../assets/projects/forkify-2.png';
 import {Link} from "../components/link";
 import CustomCarousel from "../components/carousel";
-
-const projects = [
-  {
-    id: 1,
-    title: 'REEVO',
-    description:
-      'A web application frontend for Ecommerce business.',
-    imageUrl: [r_1, r_2, r_3],
-    techs: ['React', 'Next.js', 'Material-Ui', 'Scss', 'Context API' ],
-    siteLink: 'https://reevo.vercel.app/',
-    feCodeLink: "https://github.com/rafid0007/Reevo",
-    beCodeLink: "beLink",
-  },
-  {
-    id: 2,
-    title: 'CIAO',
-    description:
-      'A web application for a online fashion shop with integrated online payment system',
-    imageUrl: [c_1, c_2, c_3],
-    techs: ['React', 'Redux-saga', 'Scss', 'Styled Components', 'Firebase', 'Stripe'],
-    siteLink: "https://ciao1.herokuapp.com/",
-    feCodeLink: "https://github.com/rafid0007/Ciao",
-    beCodeLink: "beLink",
-  },
-  {
-    id: 3,
-    title: 'RECIPE HUNT',
-    description:
-      'A website for searching food recipes and determining the amount of ingredients needed for any servings.',
-    imageUrl: [f_1, f_2],
-    techs: ['Html 5', 'Css 3', 'Javascript'],
-    siteLink: "https://rafid0007.github.io/Recipe-Hunt/dist/",
-    feCodeLink: "https://github.com/rafid0007/Recipe-Hunt",
-    beCodeLink: "beLink",
-  },
-];
-
+import {projects} from "../const/const";
 
 export default function Projects() {
   return (

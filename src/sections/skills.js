@@ -13,11 +13,16 @@ import Pg from 'assets/skills/icons8-postgresql.svg';
 import Git from 'assets/skills/icons8-github.svg';
 import Tui from 'assets/skills/theme-ui.svg';
 import Saga from 'assets/skills/redux-saga.svg';
+import TS from 'assets/skills/icons8-typescript.svg';
 
 const skills = [
     {
         name: 'JAVASCRIPT',
         icon: JS,
+    },
+    {
+        name: 'TYPESCRIPT',
+        icon: TS,
     },
     {
         name: 'REACT',
