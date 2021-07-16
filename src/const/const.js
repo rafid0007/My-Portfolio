@@ -13,7 +13,7 @@ import v_2 from "../assets/projects/v-2.png";
 import v_3 from "../assets/projects/v-3.png";
 import v_4 from "../assets/projects/v-4.png";
 
-export const resumeLink = "https://drive.google.com/uc?export=download&id=1BhCGfa7546zOiz64lXwnw0ePpjTZ17Jl";
+export const resumeLink = "https://drive.google.com/uc?export=download&id=1MfxukCobJ9c7TMrgbFzsZLwV_i3G1enJ";
 
 export const projects = [
   {
